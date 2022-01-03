@@ -22,7 +22,7 @@ export default class RoundButton extends Component {
             case 'Check':
                 return <Check size={20} color='white'/>;
             case 'Plus':
-                return <Plus size={20} color='white'/>;
+                return <Plus size={50} color='white'/>;
             default:
                 return <Trash className="icon" />
         }
