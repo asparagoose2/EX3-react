@@ -1,0 +1,12 @@
+.CardsList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 630px;
+    justify-content: space-between;
+    height: 80vh;
+    overflow: auto;
+}
+
+.CardsList > * {
+    margin-top: 30px;
+}
