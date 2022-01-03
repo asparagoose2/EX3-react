@@ -1,0 +1,9 @@
+.ButtonsRow {
+    position: absolute;
+    left: 196px;
+    top: 165px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

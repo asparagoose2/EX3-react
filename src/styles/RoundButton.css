@@ -1,0 +1,19 @@
+.roundBtn {
+    position: relative;
+    border-radius: 50%;
+    width: 35.76px;
+    height: 35.76px;
+    background-color: #FF6647;
+    border: 2.1px solid #fff;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.25);    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button:hover {
+    background-color: #fff;
+    border: 2.1px solid #FF6647;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.5);
+} */
