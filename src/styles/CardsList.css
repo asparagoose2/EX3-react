@@ -3,8 +3,14 @@
     flex-wrap: wrap;
     width: 630px;
     justify-content: space-between;
-    height: 80vh;
+    /* height: 80%; */
     overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+.CardsList::-webkit-scrollbar {
+    display: none;
 }
 
 .CardsList > * {

@@ -6,8 +6,8 @@ export default class ButtonsRow extends Component {
     render() {
         return (
             <div className={"ButtonsRow"}>
-                <RoundButton icon="Trash"/>
-                <RoundButton icon="Pencil"/>
+                <RoundButton icon="Trash" border/>
+                <RoundButton icon="Pencil" border />
             </div>
         )
     }

@@ -12,6 +12,16 @@
     align-items: center;
 }
 
+.roundBtnNoBorder {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: none;
+
+
+    background: #F86549;
+}
+
 /* button:hover {
     background-color: #fff;
     border: 2.1px solid #FF6647;
