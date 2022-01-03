@@ -1,6 +1,12 @@
 .App {
+  background:  #E5E5E5;
+}
+
+.Wrapper {
   text-align: center;
   display: flex;
   justify-content: space-around;
   background:  #E5E5E5;
+  max-width: 1440px;
+  margin: 0 auto;
 }
